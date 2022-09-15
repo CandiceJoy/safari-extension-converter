@@ -1,0 +1,27 @@
+{
+  "name": "subscriptioninfo",
+  "version": "1.0.0",
+  "description": "[![Firefox version](https://img.shields.io/amo/v/alike03s-subscription-info?label=Firefox&style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/alike03s-subscription-info/) [![Firefox rating](https://img.shields.io/amo/stars/alike03s-subscription-info?label=firefox%20rating&style=for-the-badge)](https://addons.mozilla.org/en-US/firefox/addon/alike03s-subscription-info/) [![Firefox users](https://img.shields.io/amo/users/alike03s-subscription-info?label=firefox%20users&style=for-the-badge&color=dd2222)](https://addons.mozilla.org/en-US/firefox/addon/alike03s-subscription-info/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-safari": "node build-safari.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alike03/SubscriptionInfo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alike03/SubscriptionInfo/issues"
+  },
+  "homepage": "https://github.com/alike03/SubscriptionInfo#readme",
+  "dependencies": {
+    "boxen": "^7.0.0",
+    "chalk": "^5.0.1",
+    "dotenv": "^16.0.2",
+    "ora": "^6.1.2"
+  },
+  "type": "module"
+}
